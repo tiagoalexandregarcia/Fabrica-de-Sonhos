@@ -1,0 +1,47 @@
+/* CSS Document */
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Nova+Square);
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,th,td { 
+	margin:0;
+	padding:0;	
+}	
+a,ul,li{ list-style:none; text-decoration:none;}
+#fechar{ width:100%;display:block;}
+#ms-suc,#ms-at,#ms-war{color:#4B4B4B;font-size:14pt; padding:10px;}
+#ms-suc,#ms-at,#ms-war{ border-radius:4px; width:100%; text-align:center;display:block;}
+#ms-suc{border-bottom:solid 2px #53FF53;background:#A4FFD1;}
+#ms-at{background:#FFFFCA;border-bottom:solid 2px #FF0;}
+#ms-war{background:#FF9191;border-bottom:solid 2px #F00;}
+#fechar a{float:right;cursor:pointer;clear:both;margin-right:20px;color:#444;}
+/*---------------- HEADER ----------------*/
+header{width:100%;height:100px;line-height:100px;background:#000;color:#9F9F9F;font-family:'Nova Square', cursive;}
+header .logo{color:#ffffff;font-size:70pt;margin-left:90px;float:left;height:98px;}
+header .logo span{color:#5218fa;font-size:40pt;margin-left:-13px;}
+header h1{float:left;font-size:20px;height:30px;line-height:30px;margin:60px 0 0 20px;}
+header .logado{float:right;display:block;margin-right:100px;width:220px;height:100px;line-height:100px;}
+header .hora{width:70px;float:left;margin-left:30px;margin-top:30px;}
+header .logado a:hover{color:#0000E1;float:left;}
+.listra{background:#87cfe6;width:100%;height:4px;}
+/*---------------- Menu (NAV) ----------------*/
+#content{width:100%;}
+nav{width:100%; background:#87cfe6; height:30px;line-height:30px;}
+nav a{float:left; padding: 0 15px;color:#444; margin-left:30px;text-transform:uppercase;}
+nav a:hover{background:#fff; padding: 0 15px; border-radius:2px;}
+/*------------------ inputs ------------------*/
+.field,.div-login input[type=text],.div-login input[type=password],
+input[type=text],input[type=password] {border:solid 1px #ccc; border-radius:4px;}
+.field{width:230px; float:right; margin:40px 200px 0 0; position:relative;}
+.field h1,.field h2,.texto{text-align:center;font-family: 'Nova Square'; color:#0d9ce0;}
+.field h1{font-size:14pt; margin-top:30px;}
+.field h2{font-size:10pt;}
+.div-login input[type=text],
+.div-login input[type=password]{padding:8px;width:210px; margin:10px 0 0 10px; color:#6C6C6C;}
+input[type=text]:focus, input[type=password]:focus,select:focus{border-color: #0d9ce0;outline: 0;}
+.field .botao{margin:20px 0 20px 20px;background:#0d9ce0;color:#fff;padding:5px;width:190px;border-radius:4px;border:none; cursor:pointer;font-size:14pt;}
+.field .botao{font-family: 'Nova Square';}
+
+
+
+
+
+
